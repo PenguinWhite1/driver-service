@@ -8,14 +8,6 @@
 
   const routes: RouteDefinition = {
     '/': Home,
-    '/page2': wrap({
-      asyncComponent: () => import('./pages/Page2.svelte'),
-      loadingComponent: Loading,
-    }),
-    '/page3': wrap({
-      asyncComponent: () => import('./pages/Page3.svelte'),
-      loadingComponent: Loading,
-    }),
     '*': wrap({
       asyncComponent: () => import('./pages/NotFound.svelte'),
       loadingComponent: Loading,

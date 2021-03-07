@@ -1,0 +1,307 @@
+{
+  "inputs": {
+    "_snowpack/env.js": {
+      "bytes": 97,
+      "imports": []
+    },
+    "_dist_/App.svelte.css": {
+      "bytes": 1449,
+      "imports": []
+    },
+    "_snowpack/pkg/common/index-defad21c.js": {
+      "bytes": 17097,
+      "imports": []
+    },
+    "_snowpack/pkg/svelte/internal.js": {
+      "bytes": 449,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-defad21c.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/common/wrap-14f018b7.js": {
+      "bytes": 4560,
+      "imports": []
+    },
+    "_snowpack/pkg/common/Router-295fa472.js": {
+      "bytes": 26252,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-defad21c.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/wrap-14f018b7.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/svelte-spa-router.js": {
+      "bytes": 233,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-defad21c.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/wrap-14f018b7.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/Router-295fa472.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_snowpack/pkg/svelte-spa-router/wrap.js": {
+      "bytes": 56,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/wrap-14f018b7.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_dist_/components/AppBar.svelte.css": {
+      "bytes": 557,
+      "imports": []
+    },
+    "_snowpack/pkg/svelte-spa-router/active.js": {
+      "bytes": 3492,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/Router-295fa472.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/index-defad21c.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/common/wrap-14f018b7.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_dist_/components/AppBar.svelte.js": {
+      "bytes": 1314,
+      "imports": [
+        {
+          "path": "_dist_/components/AppBar.svelte.css",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte/internal.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte-spa-router/active.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_dist_/components/Loading.svelte.css": {
+      "bytes": 852,
+      "imports": []
+    },
+    "_snowpack/pkg/svelte/transition.js": {
+      "bytes": 308,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/common/index-defad21c.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_dist_/components/Loading.svelte.js": {
+      "bytes": 3903,
+      "imports": [
+        {
+          "path": "_dist_/components/Loading.svelte.css",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte/internal.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte/transition.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_dist_/pages/Home.svelte.css": {
+      "bytes": 375,
+      "imports": []
+    },
+    "_dist_/pages/Home.svelte.js": {
+      "bytes": 2437,
+      "imports": [
+        {
+          "path": "_dist_/pages/Home.svelte.css",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte/internal.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte/transition.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_dist_/pages/NotFound.svelte.js": {
+      "bytes": 1228,
+      "imports": [
+        {
+          "path": "_snowpack/pkg/svelte/internal.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte-spa-router.js",
+          "kind": "import-statement"
+        }
+      ]
+    },
+    "_dist_/App.svelte.js": {
+      "bytes": 1923,
+      "imports": [
+        {
+          "path": "_dist_/App.svelte.css",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte/internal.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte-spa-router.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_snowpack/pkg/svelte-spa-router/wrap.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_dist_/components/AppBar.svelte.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_dist_/components/Loading.svelte.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_dist_/pages/Home.svelte.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_dist_/pages/NotFound.svelte.js",
+          "kind": "dynamic-import"
+        }
+      ]
+    },
+    "_dist_/index.js": {
+      "bytes": 396,
+      "imports": [
+        {
+          "path": "_snowpack/env.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "_dist_/App.svelte.js",
+          "kind": "import-statement"
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "../~~bundle~~/_dist_/index.js": {
+      "imports": [],
+      "exports": [
+        "default"
+      ],
+      "entryPoint": "_dist_/index.js",
+      "inputs": {
+        "_dist_/pages/NotFound.svelte.js": {
+          "bytesInOutput": 397
+        },
+        "_snowpack/env.js": {
+          "bytesInOutput": 100
+        },
+        "_dist_/App.svelte.css": {
+          "bytesInOutput": 0
+        },
+        "_snowpack/pkg/common/index-defad21c.js": {
+          "bytesInOutput": 6052
+        },
+        "_snowpack/pkg/svelte/internal.js": {
+          "bytesInOutput": 0
+        },
+        "_snowpack/pkg/common/wrap-14f018b7.js": {
+          "bytesInOutput": 874
+        },
+        "_snowpack/pkg/common/Router-295fa472.js": {
+          "bytesInOutput": 6144
+        },
+        "_snowpack/pkg/svelte-spa-router.js": {
+          "bytesInOutput": 0
+        },
+        "_snowpack/pkg/svelte-spa-router/wrap.js": {
+          "bytesInOutput": 0
+        },
+        "_dist_/components/AppBar.svelte.css": {
+          "bytesInOutput": 0
+        },
+        "_snowpack/pkg/svelte-spa-router/active.js": {
+          "bytesInOutput": 945
+        },
+        "_dist_/components/AppBar.svelte.js": {
+          "bytesInOutput": 423
+        },
+        "_dist_/components/Loading.svelte.css": {
+          "bytesInOutput": 0
+        },
+        "_snowpack/pkg/svelte/transition.js": {
+          "bytesInOutput": 150
+        },
+        "_dist_/components/Loading.svelte.js": {
+          "bytesInOutput": 1501
+        },
+        "_dist_/pages/Home.svelte.css": {
+          "bytesInOutput": 0
+        },
+        "_dist_/pages/Home.svelte.js": {
+          "bytesInOutput": 783
+        },
+        "_dist_/App.svelte.js": {
+          "bytesInOutput": 526
+        },
+        "_dist_/index.js": {
+          "bytesInOutput": 64
+        }
+      },
+      "bytes": 18591
+    },
+    "../~~bundle~~/_dist_/index.css": {
+      "imports": [],
+      "inputs": {
+        "_dist_/App.svelte.css": {
+          "bytesInOutput": 1431
+        },
+        "_dist_/components/AppBar.svelte.css": {
+          "bytesInOutput": 548
+        },
+        "_dist_/components/Loading.svelte.css": {
+          "bytesInOutput": 842
+        },
+        "_dist_/pages/Home.svelte.css": {
+          "bytesInOutput": 374
+        }
+      },
+      "bytes": 3196
+    }
+  }
+}
