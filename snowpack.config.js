@@ -8,7 +8,7 @@ module.exports = {
     open: 'none',
   },
   buildOptions: {
-    baseUrl: '/svelte-spa-template',
+    baseUrl: '/',
     clean: true,
     // seems to be broken as of now
     sourcemaps: false,
